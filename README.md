@@ -4,7 +4,7 @@ A chat assistant that screens stocks and funds from plain-English questions
 ("show me today's top gainers", "show me the next 5", "how has TSM moved in 3 months?").
 Built with LangGraph, Yahoo Finance data (yfinance) and a Streamlit front end.
 
-**Live demo:** ADD-YOUR-STREAMLIT-LINK-HERE
+**Live demo:** coming soon
 
 ## What it does
 - 15 predefined Yahoo Finance screens (stocks and funds), 5 results per page with pagination
@@ -16,6 +16,7 @@ Built with LangGraph, Yahoo Finance data (yfinance) and a Streamlit front end.
 A LangGraph state graph with a chatbot node, a tool node and a router that sends
 the model's tool calls to the tools and back. Conversation memory is kept per
 session with LangGraph's `InMemorySaver`.
+![Agent graph]
 
 ## What I added
 - Streamlit chat interface, deployable to the cloud
